@@ -1,0 +1,2 @@
+TOKEN = ''
+ADMIN_TG_USER_ID = ['']
