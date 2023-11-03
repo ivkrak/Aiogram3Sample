@@ -3,8 +3,9 @@ import asyncio
 from aiogram import Dispatcher
 from aiogram.fsm.storage.memory import MemoryStorage
 
-from handlers import start, admins
-from misc import bot, logger
+from src.handlers import start
+from src.handlers import admins
+from src.misc import bot, logger
 
 
 # Запуск бота

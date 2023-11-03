@@ -1,7 +1,7 @@
 from aiogram import Router, F
 from aiogram.filters import Command
 from aiogram.types import Message
-from misc import logger
+from src.misc import logger
 
 router = Router()
 

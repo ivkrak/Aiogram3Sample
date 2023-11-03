@@ -1,5 +1,9 @@
+import os
+
 from loguru import logger
 from aiogram import Bot
+
+
 logger.add(
     'logs/log.log',
     format='{time:HH:mm:ss} {level} {message}',
@@ -7,4 +11,4 @@ logger.add(
     rotation='50 MB'
 )
 
-bot = Bot(token="TOKEN")
+bot = Bot(token=os.getenv('BOT_TOKEN'))
